@@ -11,6 +11,7 @@ COPY [".", "/usr/src/"]
 
 EXPOSE 3000
 
-CMD ["npx", "nodemon", "index.js"]
+CMD ["node", "index.js"]  
+# CMD ["node", "index.js"]  modo exec []
 # CMD Node index.js ---> se puede ver escrito asi pero 
 # se recomienda la de arriba
